@@ -183,3 +183,30 @@ span{
     font-weight: 700;
     margin-left: 5px;
 }
+
+/* ---Shop Section */
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 230px;
+    background-color: white;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2,  1fr);
+}
+
+.box1{
+    background-image: url("box-1\(1\).jpg");
+}
+
+.box1 h{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: black;
+}
