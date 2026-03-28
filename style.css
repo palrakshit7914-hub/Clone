@@ -143,7 +143,43 @@ span{
 
 /* ---hero-section--- */
 .hero-section{
-    height: 400px;
+    height: 350px;
     background-image: url("amazon-hero.jpg");
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-section i{
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    top: 35%;
+    left: -5px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hero-section i:nth-child(2){
+    left: auto;
+    right: -5px;
+}
+
+.hero-msg{
+    width: 80%;
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.hero-msg a{
+    color: #007185;
+    font-weight: 700;
+    margin-left: 5px;
 }
