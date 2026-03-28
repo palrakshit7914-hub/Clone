@@ -140,3 +140,10 @@ span{
     font-size: 0.9rem;
     font-style: 700;
 }
+
+/* ---hero-section--- */
+.hero-section{
+    height: 400px;
+    background-image: url("amazon-hero.jpg");
+    background-size: cover;
+}
