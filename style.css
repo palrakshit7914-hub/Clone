@@ -189,6 +189,7 @@ span{
     display: flex;
     justify-content: space-evenly;
     background-color: #e2e7e6;
+
 }
 
 .box{
@@ -196,7 +197,7 @@ span{
     height: 450px;
     width: 25%;
     background-color: white;
-    padding: 15px 0px 15px;
+    padding: 20px 0px 15px;
 }
 
 .box-img{
@@ -214,8 +215,8 @@ span{
 }
 
 .box-content{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
     padding: 10px;
 }
 
